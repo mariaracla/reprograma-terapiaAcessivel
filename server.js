@@ -2,7 +2,7 @@ const psicologosJson = require('./psis.json')
 
 const express = require("express")
 const app = express()
-const PORT = 8787
+const PORT = process.env.PORT || 8787
 
 const cors = require("cors")
 
