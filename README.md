@@ -1,5 +1,5 @@
 ## Terapia acessível
-
+- https://terapiaacessivel.herokuapp.com/
 ### Resumo:
 Como projeto final do meu curso de Back-End na Reprograma, resolvi fazer uma API baseada em psicólogos que atendem com valor social.
 Escolhi esse tema porque durante a trajetória do curso, vi que a migração de carreira gera muitos sentimentos autosabotadores, como duvidar da própria capacidade, comparar o seu aprendizado com o de outras pessoas, insegurança e afins. E sei que apoio psicológico ajuda muito a se livrar e se curar desses bloqueios, mas o valor de mercado de cada sessão é muito alto e não são todas as pessoas que conseguem ter acesso.
