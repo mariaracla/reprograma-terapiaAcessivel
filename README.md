@@ -1,6 +1,4 @@
 ## Terapia acessível
-- https://she-speaks.herokuapp.com/
-
 
 ### Resumo:
 Como projeto final do meu curso de Back-End na Reprograma, resolvi fazer uma API baseada em psicólogos que atendem com valor social.
