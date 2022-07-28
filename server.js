@@ -11,6 +11,18 @@ app.use(express.json())
 
 
 
+app.get("/", (request, response) => {
+
+    response.status(200).json({
+
+        title: "Terapia Acessível",
+        version: "1.0.0",
+        mensagem: "Essa API ..."
+
+    })
+
+})
+
 app.get("/psicologos", (request, response)=>{
 
     response.status(200).json(psicologosJson)
