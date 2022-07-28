@@ -15,9 +15,9 @@ app.get("/", (request, response) => {
 
     response.status(200).json({
 
-        title: "Terapia Acessível",
-        version: "1.0.0",
-        mensagem: "Essa API ..."
+        titulo: "Terapia Acessível",
+        versão: "1.0.0",
+        mensagem: "Essa API é o meu projeto final da Reprograma. Sobre terapia com valor social, foi criada pensando em pessoas que estão em migração de carreira, sofrendo com a ansiedade que esse desafio traz. Sabendo que o valor do mercado não é acessível para todo mundo, juntei uma série de psis que atendem com um valor mais em conta, de acordo com a sua realidade financeira. Deixo aqui o conselho de uma psicóloga (@desaguarpsicologia), CRP 1/20097: quando entendemos que o desconforto é inevitável e que ficar onde já não nos cabe também é doloroso, conseguimos encarar o medo de frente. o medo faz parte da jornada! você é capaz de fazer coisas difíceis. sustente o desconforto - que é inevitável - e siga sua maior bússola: seu coração!"
 
     })
 
@@ -32,8 +32,8 @@ app.get("/psicologos", (request, response)=>{
 
     app.get("/psicologos/buscar/:id", (request, response) => {
 
-        let idRequest = request.params.id
-        let psicologoEncontrado = psicologosJson.find(psicologo => psicologo.id == idRequest)
+        const idRequest = request.params.id
+        const psicologoEncontrado = psicologosJson.find(psicologo => psicologo.id == idRequest)
         response.status(200).json(psicologoEncontrado)
         
         })
@@ -52,9 +52,9 @@ response.status(200).send(psicologoEncontrado)
 })
 
         app.post("/psicologos/cadastrar", (request,response)=>{
-            let bodyRequest = request.body
+            const bodyRequest = request.body
         
-            let novoPsicologo = {
+            const novoPsicologo = {
                 id: (psicologosJson.length)+1, 
                 Modalidade: bodyRequest.Modalidade, 
                 Valor: bodyRequest.Valor,
@@ -107,7 +107,7 @@ response.status(200).send(psicologoEncontrado)
         
             bodyRequest.id = idRequest
         
-            //deleta o filme existente e substitui
+            
             psicologosJson.splice(indice, 1, bodyRequest)
         
             response.status(200).json([{
@@ -129,7 +129,7 @@ response.status(200).send(psicologoEncontrado)
         
             response.status(200).json([{
                 "mensagem": "Valor atualizado com sucesso",
-                "filme-atualizado": psicologoEncontrado,
+                "Valor-atualizado": psicologoEncontrado,
                 psicologosJson
             }])
         

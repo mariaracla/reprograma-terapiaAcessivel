@@ -10,10 +10,10 @@ Por isso, pensei em buscar projetos e psicólogos que atendem por valor social, 
 - Nodemon
 
 ## Rotas
-GET - "/psicologos" - retorna todos os psicólogos da lista.
-GET - "/psicologos/buscar/:id" - retorna todos os psicólogos selecionados por id.
-GET - "/psicologos/filtro" - retorna os psicólogos selecionados por modalidade, online ou presencial.
-POST - "/psicologos/cadastrar" - cadastra um novo psicólogo que atende por valor social.
-DELETE - "/psicologos/deletar/:id" - deleta um cadastro de psicólogo.
-PUT - "/psicologos/substituir/:id" - atualiza os dados de um cadastro.
-PATCH - "/psicologos/updateValor/:id" - atualiza o valor de cada sessão.
+- GET - "/psicologos" - retorna todos os psicólogos da lista.
+- GET - "/psicologos/buscar/:id" - retorna todos os psicólogos selecionados por id.
+- GET - "/psicologos/filtro" - retorna os psicólogos selecionados por modalidade, online ou presencial.
+- POST - "/psicologos/cadastrar" - cadastra um novo psicólogo que atende por valor social.
+- DELETE - "/psicologos/deletar/:id" - deleta um cadastro de psicólogo.
+- PUT - "/psicologos/substituir/:id" - atualiza os dados de um cadastro.
+- PATCH - "/psicologos/updateValor/:id" - atualiza o valor de cada sessão.
