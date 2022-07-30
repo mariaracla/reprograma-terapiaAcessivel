@@ -10,15 +10,39 @@ Por isso, pensei em buscar projetos e psicólogos que atendem por valor social, 
 - Express
 - Nodemon
 
-## Rotas
-- GET - "/psicologos" - retorna todos os psicólogos da lista.
+# Rotas
+## - GET - "/psicologos" - retorna todos os psicólogos da lista.
+
+![get_all](https://user-images.githubusercontent.com/99006307/181865731-80ccd41a-edd0-45e2-b3b5-32961bfaf247.gif)
 
 
-- GET - "/psicologos/buscar/:id" - retorna todos os psicólogos selecionados por id.
-- GET - "/psicologos/filtro" - retorna os psicólogos selecionados por modalidade, online ou presencial.
-- POST - "/psicologos/cadastrar" - cadastra um novo psicólogo que atende por valor social.
-- DELETE - "/psicologos/deletar/:id" - deleta um cadastro de psicólogo.
-- PUT - "/psicologos/substituir/:id" - atualiza os dados de um cadastro.
-- PATCH - "/psicologos/updateValor/:id" - atualiza o valor de cada sessão.
+## - GET - "/psicologos/buscar/:id" - retorna todos os psicólogos selecionados por id.
 
-![delete](https://user-images.githubusercontent.com/99006307/181865699-c56b29d2-523e-482f-8d91-7853f0720c14.gif)
+
+![id](https://user-images.githubusercontent.com/99006307/181865722-b97f7086-41e1-4917-a926-f59c81c0d8f8.gif)
+
+
+## - GET - "/psicologos/filtro" - retorna os psicólogos selecionados por modalidade, online ou presencial.
+
+![filtro](https://user-images.githubusercontent.com/99006307/181865740-e82b2b3b-a0c2-4663-b324-2e45763abcf4.gif)
+
+## - POST - "/psicologos/cadastrar" - cadastra um novo psicólogo que atende por valor social.
+
+
+![post](https://user-images.githubusercontent.com/99006307/181865752-7d2f056c-23be-4f22-83b4-d71bc50c535a.gif)
+
+
+## - DELETE - "/psicologos/deletar/:id" - deleta um cadastro de psicólogo.
+
+![delete](https://user-images.githubusercontent.com/99006307/181865765-5679d39e-0942-4237-8838-ecb22c86943c.gif)
+
+
+## - PUT - "/psicologos/substituir/:id" - atualiza os dados de um cadastro.
+
+
+![put](https://user-images.githubusercontent.com/99006307/181865768-b58e3e15-664f-4dea-acbd-c09318f7f3d3.gif)
+
+
+## - PATCH - "/psicologos/updateValor/:id" - atualiza o valor de cada sessão.
+
+![patch](https://user-images.githubusercontent.com/99006307/181865775-b4e32c95-7fa2-4d37-a052-c1d637dae13e.gif)
