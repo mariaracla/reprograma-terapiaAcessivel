@@ -12,6 +12,8 @@ Por isso, pensei em buscar projetos e psicólogos que atendem por valor social, 
 
 ## Rotas
 - GET - "/psicologos" - retorna todos os psicólogos da lista.
+
+
 - GET - "/psicologos/buscar/:id" - retorna todos os psicólogos selecionados por id.
 - GET - "/psicologos/filtro" - retorna os psicólogos selecionados por modalidade, online ou presencial.
 - POST - "/psicologos/cadastrar" - cadastra um novo psicólogo que atende por valor social.
@@ -19,3 +21,4 @@ Por isso, pensei em buscar projetos e psicólogos que atendem por valor social, 
 - PUT - "/psicologos/substituir/:id" - atualiza os dados de um cadastro.
 - PATCH - "/psicologos/updateValor/:id" - atualiza o valor de cada sessão.
 
+![delete](https://user-images.githubusercontent.com/99006307/181865699-c56b29d2-523e-482f-8d91-7853f0720c14.gif)
